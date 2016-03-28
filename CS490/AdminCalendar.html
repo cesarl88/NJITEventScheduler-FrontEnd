@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Scheduler</title>
+   <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+<style>
+  body {
+    background-color: #66CCFF;
+  }   
+    
+</style>
+</head> 
+     
+<body> 
+
+     <h1><center>ADMIN EVENT CALENDAR</center></h1>
+      <center><iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cpusata%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe></center>
+      <form id="form" method="Post" action="Curl2.php">
+         <h1>Fill in the Event Form:</h1>
+         <ul>ID:<input type="text" name="ID"></ul>
+          <ul>Link:<input type="text" name="link"></ul>
+           <ul>Image:<input type="text" name="Image"></ul>
+            <ul>EventName:<input type="text" name="EventName"></ul>
+         <ul>Title:<input type="text" name="Title"></ul>
+         <ul>Place:<input type="text" name="Place"></ul>
+         <ul>Submitted By:<input type="text" name="Submitter"></ul>
+         <ul>Description:<input type="text" name="Description"></ul>
+         <ul>Approved:<input type="text" name="Approved"></ul>
+         <ul>Organization:<input type="text" name="Organization"></ul>
+         <ul>startDate:<input type="text"  name="startDate">
+             EndDate:<input type="text" name="EndDate">
+         </ul>
+         <ul>Start Time:<input type="text" name="startTime">
+             End Time:<input type="text" name="endTime">
+         </ul>
+          <p><input type="submit" name="Submit" id="submit" value="SUBMIT"></p>
+ 	      
+       </form>
+</body>
+</html>
