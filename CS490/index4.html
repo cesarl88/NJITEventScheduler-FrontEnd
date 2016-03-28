@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Scheduler</title>
+   <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="bootstrap.min.css">-->
+    
+
+<style>
+  body {
+    background-color: #FFFF99;
+  }   
+    
+</style>
+</head> 
+     
+<body> 
+
+    
+
+     <h1><center>USER EVENT CALENDAR</center></h1>
+      <center><iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cpusata%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe></center>
+      
+      <form id="form" method="Post" action="Curl.php">
+         <h1>Fill in the Event Form:</h1>
+         <ul>Name of Event:<input type="text" name="eventName"></ul>
+         <ul>Description:<input type="text" name="description"></ul>
+         <ul>Location:<input type="text" name="location"></ul>  
+         <ul>Start Date:<input type="date" id="sDate">
+             End Date:<input type="date" id="eDate">
+         </ul>
+         <ul>Start Time:<input type="time" name="sTime">
+             End Time:<input type="time" name="eTime">
+         </ul>
+          <p><input type="submit" name="Submit" id="submit" value="SUBMIT"></p>
+         </form>
+                
+</body>
+</html>
